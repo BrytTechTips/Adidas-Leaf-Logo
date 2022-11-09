@@ -1,0 +1,47 @@
+body{
+    background: #0166ff;
+}
+.container{
+    position: relative;
+    width: 474px;
+    margin: 10px auto 0;
+}
+.leaf{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 100px;
+    left: 273px;
+    border-radius: 100% 0 100% 0;
+    background: white;
+    transform-origin: bottom left;
+}
+.leaf:first-child{
+    transform: rotate(-3deg) translate(-4px,0);
+}
+.leaf:nth-child(2){
+    transform: rotate(-45deg) translate(-27px,-24px);
+}
+.leaf:nth-child(3){
+    transform: rotate(-87deg) translate(-3px,-69px);
+}
+.name{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    padding-top: 296px;
+    font: 146px/1 'adidas';
+    color: white;
+    letter-spacing: -4px;
+    text-align: center;
+    background-image: linear-gradient(
+                     to bottom,
+                     transparent 0%,
+                     transparent 40%, #0166ff 40%,
+                     #0166ff 44%, transparent 44%,
+                     transparent 48%, #0166ff 48%,
+                     #0166ff 52%, transparent 52%,
+                     transparent 56%, #0166ff 56%,
+                     #0166ff 60%, transparent 60%
+    );
+}
